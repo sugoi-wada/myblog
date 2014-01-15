@@ -398,3 +398,15 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+# -- S3 Deploy config -- #
+s3_bucket      = "iamemustan.com"  # Enter your S3 bucket name here
+s3_cache_secs  = "3600" # Number of seconds to keep objects in cache - 3600 = 1 hour
+s3_delete      = true # True if you want to remove deleted files in you public-directory from the S3 bucket
+deploy_default = "s3"
+
+desc "Deploy website via s3cmd"
+task :s3 do
+      puts "## Deploying website via s3cmd"
+        ok_failed system("s3cmd sync --acl-public #{"--delete-removed" unless s3_delete == false}  --add-header \"Cache-Control: max-age=#{s3_cache_secs}\"  public/* s3://#{s3_bucket}/")
+end
