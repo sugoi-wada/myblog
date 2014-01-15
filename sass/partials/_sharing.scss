@@ -5,4 +5,14 @@
   }
 }
 
+.sharing ul li {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+li.twitter{
+	width: 80px;
+}
+
 #fb-root { display: none; }

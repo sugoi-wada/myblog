@@ -1,12 +1,11 @@
 // aharris colors vvvvvvvv
-$gray: #545454 !default;
 $lightGray: #ccc !default;
-$brick: #d04e38 !default;
+$brick: #fff !default;
 $darkBrick: #943221 !default;
 $lightBrick: #e8704b !default;
 $white: #fff !default;
 $black: #000 !default;
-$yellow: #ffeb90 !default;
+$yellow: #e2a8a7 !default;
 
 //original colors vvvvvvv
 
@@ -24,7 +23,7 @@ $main-bg: #f8f8f8 !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-$header-bg: #fff !default;
+$header-bg: #943221 !default;
 $header-border: lighten($header-bg, 15) !default;
 $subtitle-color: #222 !default;
 
@@ -45,7 +44,7 @@ $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 
 /* Sidebar colors */
 $sidebar-bg: $darkBrick !default;
-$sidebar-link-color: $white !default;
+$sidebar-link-color: $black !default;
 $sidebar-link-color-hover: $darkBrick !default;
 $sidebar-link-color-active: $darkBrick !default;
 $sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;

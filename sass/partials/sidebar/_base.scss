@@ -3,7 +3,7 @@
 // }
 aside.sidebar {
   overflow: hidden;
-  color: $white;
+  color: $black;
   a { @extend .force-wrap; }
   section {
     @extend .sans;
@@ -36,7 +36,7 @@ aside.sidebar {
     }
   }
   a {
-    color: $white;
+    color: $black;
     text-decoration: none;
     @include transition(color .5s);
   }
@@ -51,11 +51,11 @@ aside.sidebar {
     font-family: $sans;
     line-height: 1.1em;
     width: 80%;
-    background-color: $lightBrick;
+    background-color: $black;
     color: $yellow;
     &:focus {
       color: #444;
-      background-color: $white;
+      background-color: $black;
       outline: none;
     }
   }
