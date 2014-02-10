@@ -23,13 +23,13 @@ $ adb shell rm /sdcard/screen.png
 
     $ adb shell screencap -p | sed 's/\r$//' > screen.png
 
-※ screen.jpgはファイル名
+※ screen.pngはファイル名
 
 ## Mac OS Xの人
 
     $ adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screen.png
 
-※ screen.jpgはファイル名
+※ screen.pngはファイル名
 
 てな感じです．しかし、一気にバシャバシャ撮りたいのに、いちいちファイル名いじってコマンド叩くの面倒ですよね。てことで、初めてのシェルスクリプトを書いてみました。
 
