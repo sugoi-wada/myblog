@@ -1,0 +1,3 @@
+[submodule ".themes/octopress-flat-custom"]
+	path = .themes/octopress-flat-custom
+	url = git@github.com:sugoi-wada/octopress-flat.git
