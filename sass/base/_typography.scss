@@ -92,7 +92,7 @@ h5, section h4, section section h3 {
 h6, section h5, section section h4, section section section h3 {
   font-size: .8em;
 }
-p, blockquote, ul, ol { margin-bottom: 1.5em; }
+p, blockquote, ul, ol { margin-bottom: 1.5em; line-height: 1.5em; font-size: 0.9em;}
 
 ul { list-style-type: disc;
   ul { list-style-type: circle; margin-bottom: 0px;
@@ -125,8 +125,8 @@ del, s { text-decoration: line-through; }
 
 abbr, acronym { border-bottom: 1px dotted; cursor: help; }
 
-pre, code, tt { 
-  @extend .mono; 
+pre, code, tt {
+  @extend .mono;
   background-color: $base03;
 }
 
