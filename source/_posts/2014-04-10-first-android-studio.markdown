@@ -59,5 +59,8 @@ Plugins から確認できます。ちなみに僕は
 |Exctract method|メソッドの定義|⌘⌥M
 |Move Tab|右のタブや左のタブに移動|⇧⌘[ or ]
 |Run|アプリをビルドして実行する|⌃R
-
+|Delete Line|行を削除する|⌘⌫
+|Declaration|定義にジャンプする|⌘B
+|References|参照されいている箇所を表示する|⌥F7
+|Quick fix|行またはブロックのエラーの修正方法を表示する|⌥enter
 ※随時追加するかも
