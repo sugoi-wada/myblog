@@ -15,7 +15,7 @@ Android2.3.3(API 10)から、`MediaMetadataRetriever`クラスが追加されま
 
  まずはMediaMetadataRetrieverのインスタンスを生成し、`MediaMetadataRetriever#setDataSource()`でファイルのソースを指定します。下記ではpathで指定していますが、URIやFileDiscriptorでも指定することができます。
 
-```
+``` java
  MediaMetadataRetriever mmr = new MediaMetadataRetriever();
  mmr.setDataSource(path);
 ```
