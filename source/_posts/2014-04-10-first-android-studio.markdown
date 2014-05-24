@@ -84,4 +84,5 @@ shift…⇧
 |References|参照されている箇所を表示する|⌥F7
 |Quick fix|行またはブロックのエラーの修正方法を表示する|⌥enter
 |Add JavaDoc|クラスやメソッドのJavaDocを追加する|/**enter
+|Generate|オーバライドやコピーライトの作成|⌘n
 ※随時追加するかも
