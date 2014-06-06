@@ -81,6 +81,7 @@ shift…⇧
 |Debug|アプリをビルドしてデバッグ実行する|⌃D
 |Delete Line|行を削除する|⌘⌫
 |Declaration|定義にジャンプする|⌘B
+|Back|戻る（定義にジャンプしてから戻るなど）|⌥⌘←
 |References|参照されている箇所を表示する|⌥F7
 |Quick fix|行またはブロックのエラーの修正方法を表示する|⌥enter
 |Add JavaDoc|クラスやメソッドのJavaDocを追加する|/**enter
