@@ -23,7 +23,13 @@ Android Studioを用いたNDKのサポートは[公式ページ](https://develop
 
 で説明しています。
 
-まずJNIのCのコードを`app/src/main/jni/`配下に保存します。Android Studioから新規にディレクトリやファイルを作成して書いても構いません。
+まず、[こちら](https://developer.android.com/tools/sdk/ndk/index.html)からAndroid NDKをインストールします。お好きなところに解凍してください。そして、プロジェクトの`local.properties`内にパスを記述します。
+
+```
+ndk.dir=/path/to/android-ndk-r10c
+```
+
+次にJNIのCのコードを`app/src/main/jni/`配下に保存します。Android Studioから新規にディレクトリやファイルを作成して書いても構いません。
 
 ![](/images/androidstudio/jni-dir.png)
 
