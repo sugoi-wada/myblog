@@ -68,5 +68,5 @@ categories: Android
         mSavedState = ss;
     }
 ```
-
-いっちょ上がり！
+あとは保存した値を使うときに`mSavedState`がnullじゃない場合に使えばおっけーです。
+ありがとうございました。
